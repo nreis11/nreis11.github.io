@@ -258,6 +258,7 @@ a:hover {
 #about .block img {
   max-width: 100%;
 }
+
 .works {
   padding: 80px 0;
   background: #FCFCFC;
@@ -1090,4 +1091,9 @@ article {
   padding: 8px 0;
   color: #fff;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*Custom*/
+.rounded {
+  border-radius: 50%;
 }
