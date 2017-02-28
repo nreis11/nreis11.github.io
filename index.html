@@ -84,19 +84,10 @@
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#skills">Skills</a></li>
-<!--                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
-                                <div class="dropdown-menu">
-                                    <ul>
-                                        <li><a href="404.html">404 Page</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
-                                    </ul>
-                                </div>
-                            </li> -->
-                            <li><a href="#works">Portfolio</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a class="smooth-scroll" data-section="#about" href="#about">About</a></li>
+                            <li><a class="smooth-scroll" data-section="#skills" href="#skills">Skills</a></li>
+                            <li><a class="smooth-scroll" data-section="#works" href="#works">Portfolio</a></li>
+                            <li><a class="smooth-scroll" data-section="#contact" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -166,92 +157,7 @@
                     </div>
                 </div>
             </section> <!-- /#about -->
-            <!--
-            ==================================================
-            Portfolio Section Start
-            ================================================== -->
-            <section id="works" class="works">
-                <div class="container">
-                    <div class="section-heading">
-                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Portfolio</h1>
- <!--                        <p class="wow fadeInDown" data-wow-delay=".5s">
-                            SAMPLE TEXT
-                        </p> -->
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/recipes-royal.jpg" class="img-responsive" alt="recipes" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a target="_blank" rel="gallery" class="fancybox" href="https://recipes-royal.herokuapp.com">Live</a>
-                                            <a target="_blank" href="https://github.com/reeses-pieces/recipes-royal">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a target="_blank" href="https://recipes-royal.herokuapp.com">
-                                    Recipes Royal
-                                </a>
-                                </h4>
-                                <p>
-                                    An online personalized cookbook.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/all-together-now.jpg" class="img-responsive" alt="all together now" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a target="_blank" rel="gallery" class="fancybox" href="http://alltogethernow.herokuapp.com/">Live</a>
-                                            <a target="_blank" href="https://github.com/reeses-pieces/alltogethernow">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a target="_blank" href="http://alltogethernow.herokuapp.com/">
-                                    All Together Now
-                                </a>
-                                </h4>
-                                <p>
-                                    Front end animation using HTML, CSS, and JS.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/tron.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a target="_blank" rel="gallery" class="fancybox" href="https://youtu.be/w9NLE6MrQSg">Live</a>
-                                            <a target="_blank" href="https://github.com/reeses-pieces/tron">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a target="_blank" href="https://youtu.be/w9NLE6MrQSg">
-                                    TurtleTron
-                                </a>
-                                </h4>
-                                <p>
-                                    Game based off of the 1982 cult classic, Tron
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                    </div>
-                </div>
-            </section> <!-- #works -->
+            
             <!--
             ==================================================
             Skills Section Start
@@ -343,7 +249,89 @@
                     </div>
                 </div>
             </section> <!-- /#skills -->
-                            
+            <!--
+            ==================================================
+            Portfolio Section Start
+            ================================================== -->
+            <section id="works" class="works">
+                <div class="container">
+                    <div class="section-heading">
+                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Portfolio</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
+                                <div class="img-wrapper">
+                                    <img src="images/portfolio/recipes-royal.jpg" class="img-responsive" alt="recipes" >
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a target="_blank" rel="gallery" class="fancybox" href="https://recipes-royal.herokuapp.com">Live</a>
+                                            <a target="_blank" href="https://github.com/reeses-pieces/recipes-royal">Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a target="_blank" href="https://recipes-royal.herokuapp.com">
+                                    Recipes Royal
+                                </a>
+                                </h4>
+                                <p>
+                                    An online personalized cookbook.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="img-wrapper">
+                                    <img src="images/portfolio/all-together-now.jpg" class="img-responsive" alt="all together now" >
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a target="_blank" rel="gallery" class="fancybox" href="http://alltogethernow.herokuapp.com/">Live</a>
+                                            <a target="_blank" href="https://github.com/reeses-pieces/alltogethernow">Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a target="_blank" href="http://alltogethernow.herokuapp.com/">
+                                    All Together Now
+                                </a>
+                                </h4>
+                                <p>
+                                    Front end animation using HTML, CSS, and JS.
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-4 col-xs-12">
+                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="img-wrapper">
+                                    <img src="images/portfolio/tron.jpg" class="img-responsive" alt="" >
+                                    <div class="overlay">
+                                        <div class="buttons">
+                                            <a target="_blank" rel="gallery" class="fancybox" href="https://youtu.be/w9NLE6MrQSg">Live</a>
+                                            <a target="_blank" href="https://github.com/reeses-pieces/tron">Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <figcaption>
+                                <h4>
+                                <a target="_blank" href="https://youtu.be/w9NLE6MrQSg">
+                                    TurtleTron
+                                </a>
+                                </h4>
+                                <p>
+                                    Game based off of the 1982 cult classic, Tron
+                                </p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section> <!-- #works -->               
             <!--
             ==================================================
             Contact Section Start
