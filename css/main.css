@@ -199,7 +199,7 @@ a:hover {
   letter-spacing: normal;
   border-radius: 0;
 }
-#call-to-action {
+#contact {
   background: #02bdd5;
   background-size: cover;
   background-attachment: fixed;
@@ -208,22 +208,22 @@ a:hover {
   position: relative;
   color: #fff;
 }
-#call-to-action .block {
+#contact .block {
   position: relative;
   z-index: 99;
   color: #fff;
 }
-#call-to-action .block h2 {
+#contact .block h2 {
   margin-bottom: 15px;
   color: #fff;
 }
-#call-to-action .block p {
+#contact .block p {
   font-size: 15px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   margin-top: 20px;
 }
-#call-to-action .block .btn-contact {
+#contact .block .btn-contact {
   background: #fff;
   border: none;
   color: #02bdd5;
@@ -234,7 +234,7 @@ a:hover {
   text-transform: uppercase;
   border-radius: 0;
 }
-#call-to-action .block .btn-contact i {
+#contact .block .btn-contact i {
   margin-right: 10px;
 }
 #about {
