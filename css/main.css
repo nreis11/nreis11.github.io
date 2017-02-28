@@ -211,6 +211,7 @@ a:hover {
 
 /*Custom*/
 #contact a {
+  display: block;
   color: #fff;
 }
 #contact .block {
