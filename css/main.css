@@ -383,16 +383,16 @@ figure figcaption p {
   margin-bottom: 0;
   margin-top: 5px;
 }
-#feature {
+#skills {
   padding: 80px 0;
 }
-#feature .media {
+#skills .media {
   margin: 0px 0 70px 0;
 }
-#feature .media .media-left {
+#skills .media .media-left {
   padding-right: 25px;
 }
-#feature h3 {
+#skills h3 {
   color: #000;
   font-size: 18px;
   text-transform: uppercase;
@@ -401,12 +401,12 @@ figure figcaption p {
   margin: 0px 0px 15px;
   font-weight: 400;
 }
-#feature p {
+#skills p {
   line-height: 25px;
   font-size: 14px;
   color: #777777;
 }
-#feature .icon {
+#skills .icon {
   text-decoration: none;
   color: #fff;
   background-color: #02bdd5;
@@ -863,25 +863,25 @@ ul.social-icons li {
 .team-member .social-icons .facebook {
   padding: 4px 12px;
 }
-.about-feature {
+.about-skill {
   margin-top: 50px;
 }
-.about-feature .block {
+.about-skill .block {
   color: #fff;
   width: 33.33%;
   padding: 5%;
   float: left;
 }
-.about-feature .block p {
+.about-skill .block p {
   font-weight: 300;
 }
-.about-feature .about-feature-1 {
+.about-skill .about-skill-1 {
   background: #02bdd5;
 }
-.about-feature .about-feature-2 {
+.about-skill .about-skill-2 {
   background: #00B0C7;
 }
-.about-feature .about-feature-3 {
+.about-skill .about-skill-3 {
   background: #00A6BB;
 }
 #blog-full-width {
