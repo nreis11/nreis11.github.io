@@ -113,8 +113,9 @@ function checkActive(event){
     $('.main-menu a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
-        // console.log('refElement', refElement);
-        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+        var fixedHeaderHeight = $('#top-bar').height();
+        if (refElement.position().top <= scrollPos + fixedHeaderHeight && refElement.position().top + refElement.height() > scrollPos + 
+        fixedHeaderHeight) {
             $('.main-menu ul li a').removeClass("active");
             currLink.addClass("active");
         }
