@@ -248,6 +248,7 @@ a:hover {
 }
 #about {
   padding: 110px 0;
+  background: #EBF0F0;
 }
 #about .block {
   padding: 20px 30px 0 30px;
@@ -270,7 +271,7 @@ a:hover {
 
 .works {
   padding: 80px 0;
-  background: #FCFCFC;
+  background: #EBF0F0;
 }
 .works .block {
   position: relative;
