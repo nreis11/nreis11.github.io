@@ -61,6 +61,7 @@ $(document).ready(function(){
 
 
     $(window).scroll(function () {
+        checkActive();
         if ($(window).scrollTop() > 50) {
             $(".navbar-brand a").css("color","#fff");
             $("#top-bar").removeClass("animated-header");
@@ -106,6 +107,22 @@ $(".fancybox").fancybox({
     }
 });
 
+// Check active section
+function checkActive(event){
+    var scrollPos = $(document).scrollTop();
+    $('.main-menu a').each(function () {
+        var currLink = $(this);
+        var refElement = $(currLink.attr("href"));
+        // console.log('refElement', refElement);
+        if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+            $('.main-menu ul li a').removeClass("active");
+            currLink.addClass("active");
+        }
+        else{
+            currLink.removeClass("active");
+        }
+    });
+}
 
 
 

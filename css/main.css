@@ -105,9 +105,9 @@ a:hover {
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid #dedede;
 }
-#top-bar .navbar-nav > li > a:hover {
+/*#top-bar .navbar-nav > li > a:hover {
   background: transparent;
-}
+}*/
 #top-bar.animated-header {
   padding: 20px 0;
   background: #ffffff;
@@ -128,9 +128,11 @@ a:hover {
   transition: .3s all;
   text-transform: uppercase;
 }
-#top-bar .main-menu li a:hover {
+#top-bar .main-menu li a:hover,
+#top-bar .main-menu li a.active {
   color: #02bdd5;
 }
+
 .navbar-custom .nav li > a {
   position: relative;
   color: #000;
