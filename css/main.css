@@ -263,10 +263,10 @@ a:hover {
   color: #727272;
   font-size: 20px;
   line-height: 28px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
-#about .block img {
-  margin-bottom: 20px;
+#about img {
+  margin: 25px auto;
 }
 
 .works {
