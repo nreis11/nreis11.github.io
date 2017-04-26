@@ -373,9 +373,11 @@ figure .overlay:hover a {
   transform: scale3d(1, 1, 1);
 }
 figure .buttons {
+  margin: 0;
   position: absolute;
-  top: 45%;
-  left: 24%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 figure figcaption {
   padding: 20px 25px;
