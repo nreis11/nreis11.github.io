@@ -1,405 +1,612 @@
 <!DOCTYPE html>
 <html class="no-js">
-    <head>
-        <!-- Basic Page Needs
+  <head>
+    <!-- Basic Page Needs
         ================================================== -->
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="images/favicons/manifest.json">
-        <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="theme-color" content="#ffffff">
-        <title>Nicholas Reis | Web Developer</title>
-        <meta name="description" content="Software engineer and tech enthusiast experienced in creating quality MVC web applications and using test driven development. I aim for clean, DRY, and maintainable code in every layer of the tech stack.">
-        <meta name="keywords" content="nick reis, nicholas reis, web developer, software engineer, bay area, computer science, UC Berkeley">
-        <meta name="author" content="">
-        <!-- Mobile Specific Metas
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicons/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images/favicons/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="manifest" href="images/favicons/manifest.json" />
+    <link
+      rel="mask-icon"
+      href="images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Nicholas Reis | Web Developer</title>
+    <meta
+      name="description"
+      content="Software engineer and tech enthusiast experienced in creating quality MVC web applications and using test driven development. I aim for clean, DRY, and maintainable code in every layer of the tech stack."
+    />
+    <meta
+      name="keywords"
+      content="nick reis, nicholas reis, web developer, software engineer, bay area, computer science, UC Berkeley"
+    />
+    <meta name="author" content="" />
+    <!-- Mobile Specific Metas
         ================================================== -->
-        <meta name="format-detection" content="telephone=no">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!-- Template CSS Files
-        ================================================== -->
-        <!-- Twitter Bootstrs CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <!-- Ionicons Fonts Css -->
-        <link rel="stylesheet" href="css/ionicons.min.css">
-        <!-- animate css -->
-        <link rel="stylesheet" href="css/animate.css">
-        <!-- Hero area slider css-->
-        <link rel="stylesheet" href="css/slider.css">
-        <!-- owl craousel css -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/owl.theme.css">
-        <link rel="stylesheet" href="css/jquery.fancybox.css">
-        <!-- template main css file -->
-        <link rel="stylesheet" href="css/main.css">
-        <!-- responsive css -->
-        <link rel="stylesheet" href="css/responsive.css">
-        <!-- Font Awesome icons -->
-        <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-        
-        <!-- Template Javascript Files
-        ================================================== -->
-        <!-- modernizr js -->
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <!-- jquery -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <!-- owl carouserl js -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- bootstrap js -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <script src="js/bootstrap.min.js"></script>
-        <!-- wow js -->
-        <script src="js/wow.min.js"></script>
-        <!-- slider js -->
-        <script src="js/slider.js"></script>
-        <script src="js/jquery.fancybox.js"></script>
-        <!-- template main js -->
-        <script src="js/main.js"></script>
-    </head>
-    <body>
-        <!--
+    <!-- Template CSS Files
+        ================================================== -->
+    <!-- Twitter Bootstrs CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Ionicons Fonts Css -->
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Hero area slider css-->
+    <link rel="stylesheet" href="css/slider.css" />
+    <!-- owl craousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <!-- template main css file -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Font Awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <!-- Template Javascript Files
+        ================================================== -->
+    <!-- modernizr js -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- jquery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- owl carouserl js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- bootstrap js -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <!-- wow js -->
+    <script src="js/wow.min.js"></script>
+    <!-- slider js -->
+    <script src="js/slider.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <!-- template main js -->
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <!--
         ==================================================
         Header Section Start
         ================================================== -->
-        <header id="top-bar" class="navbar-fixed-top animated-header">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- responsive nav button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <!-- /responsive nav button -->
-                    
-                    <!-- logo -->
-                    <div class="navbar-brand main-menu">
-                        <a class="smooth-scroll" data-section="#hero-area" href="#hero-area" >
-                            <h3>NR</h3>
-                        </a>
-                    </div>
-                    <!-- /logo -->
-                </div>
-                <!-- main menu -->
-                <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <div class="main-menu">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a class="smooth-scroll" data-section="#about" href="#about">About</a></li>
-                            <li><a class="smooth-scroll" data-section="#skills" href="#skills">Skills</a></li>
-                            <li><a class="smooth-scroll" data-section="#works" href="#works">Portfolio</a></li>
-                            <li><a class="smooth-scroll" data-section="#contact" href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
-                <!-- /main nav -->
-            </div>
-        </header>
-        
-        <!--
+    <header id="top-bar" class="navbar-fixed-top animated-header">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- responsive nav button -->
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span> <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- /responsive nav button -->
+
+          <!-- logo -->
+          <div class="navbar-brand main-menu">
+            <a
+              class="smooth-scroll"
+              data-section="#hero-area"
+              href="#hero-area"
+            >
+              <h3>NR</h3>
+            </a>
+          </div>
+          <!-- /logo -->
+        </div>
+        <!-- main menu -->
+        <nav class="collapse navbar-collapse navbar-right" role="navigation">
+          <div class="main-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="smooth-scroll" data-section="#about" href="#about"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a class="smooth-scroll" data-section="#skills" href="#skills"
+                  >Skills</a
+                >
+              </li>
+              <li>
+                <a class="smooth-scroll" data-section="#works" href="#works"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a class="smooth-scroll" data-section="#contact" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- /main nav -->
+      </div>
+    </header>
+
+    <!--
         ==================================================
         Slider Section Start
         ================================================== -->
-        <section id="hero-area" >
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="block wow fadeInUp" data-wow-delay=".3s">
-                            
-                            <!-- Slider -->
-                            <section class="cd-intro">
-
-                                <h1 class="wow fadeInUp animated cd-headline slide" data-wow-delay=".4s" >
-                                <span>HI, MY NAME IS NICHOLAS & I AM A</span><br>
-                                <span class="cd-words-wrapper">
-                                    <b class="is-visible">DEVELOPER</b>
-                                    <b>MUSICIAN</b>
-                                    <b>TECHNOLOGIST</b>
-                                </span>
-                                </h1>
-                                </section> <!-- cd-intro -->
-                                <!-- /.slider -->
-                                <h2 class="wow fadeInUp animated" data-wow-delay=".6s" >
-                                    My role as a software developer allows me to bring my ideas to life.
-                                </h2>
-                                <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works">View Portfolio</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section><!--/#main-slider-->
-            <!--
+    <section id="hero-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="block wow fadeInUp" data-wow-delay=".3s">
+              <!-- Slider -->
+              <section class="cd-intro">
+                <h1
+                  class="wow fadeInUp animated cd-headline slide"
+                  data-wow-delay=".4s"
+                >
+                  <span>HI, MY NAME IS NICHOLAS & I AM A</span><br />
+                  <span class="cd-words-wrapper">
+                    <b class="is-visible">DEVELOPER</b> <b>MUSICIAN</b>
+                    <b>TECHNOLOGIST</b>
+                  </span>
+                </h1>
+              </section>
+              <!-- cd-intro -->
+              <!-- /.slider -->
+              <h2 class="wow fadeInUp animated" data-wow-delay=".6s">
+                My role as a software developer allows me to bring my ideas to
+                life.
+              </h2>
+              <a
+                class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green"
+                data-wow-delay=".9s"
+                href="#works"
+                data-section="#works"
+                >View Portfolio</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/#main-slider-->
+    <!--
             ==================================================
             Slider Section Start
             ================================================== -->
-            <section id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-8">
-                            <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
-                                <h2>
-                                ABOUT ME
-                                </h2>
-                                <p>
-                                    Hello, I'm Nick and I’m a web developer from Berkeley, CA. I hold a Bachelors degree in Music from UC Berkeley and I'm experienced in creating quality MVC web applications and using test-driven development. I aim for clean, DRY, and maintainable code in every layer of the tech stack. What I love most about coding is the freedom and opportunity it provides to create beautiful and meaningful appllications for the world to use.
-                                </p>
-                                <p>
-                                    In my spare time, my hobbies include cycling, soccer, and playing piano. I love to attend programming, music, and cycling meetups to meet new friends and share ideas. Maybe I'll meet you at the next one!
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Portrait -->
-                        <div class="col-xs-12 col-md-4">
-                            <div class="block wow fadeInRight" data-wow-delay=".3s" data-wow-duration="500ms">
-                                <img class="rounded img-responsive center-block" src="images/about/about.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Resume -->
-                    <div class="row">
-                        <div class="col-xs-12 text-center">
-                            <a class="wow fadeInUp animated btn btn-info btn-lg" data-wow-delay=".9s" href="https://www.dropbox.com/s/whb0jcn047i9jgs/nicholas_reis_resume.pdf">Résumé</a>
-                        </div>
-                    </div>
-                </div>
-            </section> <!-- /#about -->
-            
-            <!--
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <div
+              class="block wow fadeInLeft"
+              data-wow-delay=".3s"
+              data-wow-duration="500ms"
+            >
+              <h2>ABOUT ME</h2>
+              <p>
+                Hello, I'm Nick and I’m a web developer from Berkeley, CA. I
+                hold a Bachelors degree in Music from UC Berkeley and I'm
+                experienced in creating quality MVC web applications and using
+                test-driven development. I aim for clean, DRY, and maintainable
+                code in every layer of the tech stack. What I love most about
+                coding is the freedom and opportunity it provides to create
+                beautiful and meaningful appllications for the world to use.
+              </p>
+              <p>
+                In my spare time, my hobbies include cycling, soccer, and
+                playing piano. I love to attend programming, music, and cycling
+                meetups to meet new friends and share ideas. Maybe I'll meet you
+                at the next one!
+              </p>
+            </div>
+          </div>
+          <!-- Portrait -->
+          <div class="col-xs-12 col-md-4">
+            <div
+              class="block wow fadeInRight"
+              data-wow-delay=".3s"
+              data-wow-duration="500ms"
+            >
+              <img
+                class="rounded img-responsive center-block"
+                src="images/about/about.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Resume -->
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <a
+              class="wow fadeInUp animated btn btn-info btn-lg"
+              data-wow-delay=".9s"
+              href="https://www.dropbox.com/s/whb0jcn047i9jgs/nicholas_reis_resume.pdf"
+              >Résumé</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /#about -->
+
+    <!--
             ==================================================
             Skills Section Start
             ================================================== -->
-            <section id="skills">
-                <div class="container">
-                    <div class="section-heading">
-                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Technical Skills</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 col-xs-12">
-                            <div class="media wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="media-left">
-                                    <div class="icon">
-                                    <i class="fa fa-desktop" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Front-end</h4>
-                                    <p>JavaScript, jQuery, JSON, HTML5/CSS3, Bootstrap, React</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xs-12">
-                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="600ms">
-                                <div class="media-left">
-                                    <div class="icon">
-                                        <i class="fa fa-cogs" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Back-end</h4>
-                                    <p>Ruby, Rails, Sinatra, Python, Flask</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xs-12">
-                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="900ms">
-                                <div class="media-left">
-                                    <div class="icon">
-                                        <i class="fa fa-database" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Databases</h4>
-                                    <p>PostgreSQL, SQL, ActiveRecord, SQLite</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xs-12">
-                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
-                                <div class="media-left">
-                                    <div class="icon">
-                                        <i class="fa fa-check-square-o" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Test-Driven Development</h4>
-                                    <p>RSpec, Jasmine, Unit Testing</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xs-12">
-                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1500ms">
-                                <div class="media-left">
-                                    <div class="icon">
-                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Concepts</h4>
-                                    <p>Agile Methodologies, RESTful API, AJAX, Pair Programming</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xs-12">
-                            <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
-                                <div class="media-left">
-                                    <div class="icon">
-                                        <i class="fa fa-windows" aria-hidden="true"></i>
-                                    </div>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">Software/Platforms</h4>
-                                    <p>OS X, Windows, Linux, Heroku, Github</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <section id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="title wow fadeInDown" data-wow-delay=".3s">
+            Technical Skills
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div
+              class="media wow fadeInUp animated"
+              data-wow-duration="500ms"
+              data-wow-delay="300ms"
+            >
+              <div class="media-left">
+                <div class="icon">
+                  <i class="fa fa-desktop" aria-hidden="true"></i>
                 </div>
-            </section> <!-- /#skills -->
-            <!--
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Front-end</h4>
+                <p>JavaScript, jQuery, JSON, HTML5/CSS3, Bootstrap, React</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div
+              class="media wow fadeInDown animated"
+              data-wow-duration="500ms"
+              data-wow-delay="600ms"
+            >
+              <div class="media-left">
+                <div class="icon">
+                  <i class="fa fa-cogs" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Back-end</h4>
+                <p>Ruby, Rails, Sinatra, Python, Flask</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div
+              class="media wow fadeInDown animated"
+              data-wow-duration="500ms"
+              data-wow-delay="900ms"
+            >
+              <div class="media-left">
+                <div class="icon">
+                  <i class="fa fa-database" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Databases</h4>
+                <p>PostgreSQL, SQL, ActiveRecord, SQLite</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div
+              class="media wow fadeInDown animated"
+              data-wow-duration="500ms"
+              data-wow-delay="1200ms"
+            >
+              <div class="media-left">
+                <div class="icon">
+                  <i class="far fa-check-square" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Test-Driven Development</h4>
+                <p>RSpec, Jasmine, Unit Testing</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div
+              class="media wow fadeInDown animated"
+              data-wow-duration="500ms"
+              data-wow-delay="1500ms"
+            >
+              <div class="media-left">
+                <div class="icon">
+                  <i class="far fa-lightbulb" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Concepts</h4>
+                <p>Agile Methodologies, RESTful API, AJAX, Pair Programming</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xs-12">
+            <div
+              class="media wow fadeInDown animated"
+              data-wow-duration="500ms"
+              data-wow-delay="1800ms"
+            >
+              <div class="media-left">
+                <div class="icon">
+                  <i class="fa fa-windows" aria-hidden="true"></i>
+                </div>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">Software/Platforms</h4>
+                <p>OS X, Windows, Linux, Heroku, Github</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /#skills -->
+    <!--
             ==================================================
             Portfolio Section Start
             ================================================== -->
-            <section id="works" class="works">
-                <div class="container">
-                    <div class="section-heading">
-                        <h1 class="title wow fadeInDown" data-wow-delay=".3s">Portfolio</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6 col-xs-12">
-                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/recipes-royale.jpg" class="img-responsive" alt="recipes" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a target="_blank" rel="gallery" class="fancybox" href="https://recipes-royale.herokuapp.com">Live</a>
-                                            <a target="_blank" href="https://github.com/reeses-pieces/recipes-royale">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a target="_blank" href="https://recipes-royale.herokuapp.com">
-                                    Recipes Royale
-                                </a>
-                                </h4>
-                                <p>
-                                    Crowdsource recipes with ease using this mobile-friendly web app.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <figure class="wow fadeInLeft animated portfolio-item" data-wow-duration="500ms" data-wow-delay="0ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/res2go.jpg" class="img-responsive" alt="res2go" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a target="_blank" rel="gallery" class="fancybox" href="https://res2go.herokuapp.com">Live</a>
-                                            <a target="_blank" href="https://github.com/reeses-pieces/res2go-rails">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a target="_blank" href="https://res2go.herokuapp.com">
-                                    Res2Go
-                                </a>
-                                </h4>
-                                <p>
-                                    Track a California reservoir's water level.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
+    <section id="works" class="works">
+      <div class="container">
+        <div class="section-heading">
+          <h1 class="title wow fadeInDown" data-wow-delay=".3s">Portfolio</h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-xs-12">
+            <figure
+              class="wow fadeInLeft animated portfolio-item"
+              data-wow-duration="500ms"
+              data-wow-delay="0ms"
+            >
+              <div class="img-wrapper">
+                <img
+                  src="images/portfolio/recipes-royale.jpg"
+                  class="img-responsive"
+                  alt="recipes"
+                />
+                <div class="overlay">
+                  <div class="buttons">
+                    <a
+                      target="_blank"
+                      rel="gallery"
+                      class="fancybox"
+                      href="https://recipes-royale.herokuapp.com"
+                      >Live</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://github.com/reeses-pieces/recipes-royale"
+                      >Code</a
+                    >
+                  </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/all-together-now.jpg" class="img-responsive" alt="all together now" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a target="_blank" rel="gallery" class="fancybox" href="http://alltogethernow.herokuapp.com/">Live</a>
-                                            <a target="_blank" href="https://github.com/reeses-pieces/alltogethernow">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a target="_blank" href="http://alltogethernow.herokuapp.com/">
-                                    All Together Now
-                                </a>
-                                </h4>
-                                <p>
-                                    A tribute to The Beatles as a front-end animation using HTML, CSS, and JS.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <figure class="wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="img-wrapper">
-                                    <img src="images/portfolio/tron.jpg" class="img-responsive" alt="" >
-                                    <div class="overlay">
-                                        <div class="buttons">
-                                            <a target="_blank" rel="gallery" class="fancybox" href="https://youtu.be/w9NLE6MrQSg">Live</a>
-                                            <a target="_blank" href="https://github.com/reeses-pieces/tron">Code</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <figcaption>
-                                <h4>
-                                <a target="_blank" href="https://youtu.be/w9NLE6MrQSg">
-                                    TurtleTron
-                                </a>
-                                </h4>
-                                <p>
-                                    Light cycle game based off of the 1982 cult classic, Tron. Coded in Python.
-                                </p>
-                                </figcaption>
-                            </figure>
-                        </div>  
-                    </div>
+              </div>
+              <figcaption>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="https://recipes-royale.herokuapp.com"
+                  >
+                    Recipes Royale
+                  </a>
+                </h4>
+                <p>
+                  Crowdsource recipes with ease using this mobile-friendly web
+                  app.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <figure
+              class="wow fadeInLeft animated portfolio-item"
+              data-wow-duration="500ms"
+              data-wow-delay="0ms"
+            >
+              <div class="img-wrapper">
+                <img
+                  src="images/portfolio/res2go.jpg"
+                  class="img-responsive"
+                  alt="res2go"
+                />
+                <div class="overlay">
+                  <div class="buttons">
+                    <a
+                      target="_blank"
+                      rel="gallery"
+                      class="fancybox"
+                      href="https://res2go.herokuapp.com"
+                      >Live</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://github.com/reeses-pieces/res2go-rails"
+                      >Code</a
+                    >
+                  </div>
                 </div>
-            </section> <!-- #works -->               
-            <!--
+              </div>
+              <figcaption>
+                <h4>
+                  <a target="_blank" href="https://res2go.herokuapp.com">
+                    Res2Go
+                  </a>
+                </h4>
+                <p>Track a California reservoir's water level.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-xs-12">
+            <figure
+              class="wow fadeInLeft animated"
+              data-wow-duration="500ms"
+              data-wow-delay="300ms"
+            >
+              <div class="img-wrapper">
+                <img
+                  src="images/portfolio/all-together-now.jpg"
+                  class="img-responsive"
+                  alt="all together now"
+                />
+                <div class="overlay">
+                  <div class="buttons">
+                    <a
+                      target="_blank"
+                      rel="gallery"
+                      class="fancybox"
+                      href="http://alltogethernow.herokuapp.com/"
+                      >Live</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://github.com/reeses-pieces/alltogethernow"
+                      >Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <figcaption>
+                <h4>
+                  <a
+                    target="_blank"
+                    href="http://alltogethernow.herokuapp.com/"
+                  >
+                    All Together Now
+                  </a>
+                </h4>
+                <p>
+                  A tribute to The Beatles as a front-end animation using HTML,
+                  CSS, and JS.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-sm-6 col-xs-12">
+            <figure
+              class="wow fadeInLeft animated"
+              data-wow-duration="500ms"
+              data-wow-delay="300ms"
+            >
+              <div class="img-wrapper">
+                <img
+                  src="images/portfolio/tron.jpg"
+                  class="img-responsive"
+                  alt=""
+                />
+                <div class="overlay">
+                  <div class="buttons">
+                    <a
+                      target="_blank"
+                      rel="gallery"
+                      class="fancybox"
+                      href="https://youtu.be/w9NLE6MrQSg"
+                      >Live</a
+                    >
+                    <a
+                      target="_blank"
+                      href="https://github.com/reeses-pieces/tron"
+                      >Code</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <figcaption>
+                <h4>
+                  <a target="_blank" href="https://youtu.be/w9NLE6MrQSg">
+                    TurtleTron
+                  </a>
+                </h4>
+                <p>
+                  Light cycle game based off of the 1982 cult classic, Tron.
+                  Coded in Python.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #works -->
+    <!--
             ==================================================
             Contact Section Start
             ================================================== -->
-            <section id="contact">
-                <div class="container">
-                    <div class="section-heading">
-                        <h1 class="block title wow fadeInDown animated" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">Contact</h1>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-4 col-xs-12">
-                            <a href="mailto:nicholasreis@gmail.com"><i class="fa fa-envelope-square fa-5x sr-contact"></i></a>
-                            <p><a href="mailto:nicholasreis@gmail.com">nicholasreis@gmail.com</a></p>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <i class="fa fa-phone-square fa-5x sr-contact"></i>
-                            <p>510-859-7696</p>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <a target="_blank" href="https://www.linkedin.com/in/nicholas-reis/"><i class="fa fa-linkedin-square fa-5x sr-contact"></i></a>
-                            <a target="_blank" class="text-center" href="https://www.linkedin.com/in/nicholas-reis/">nicholas-reis</a>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </section>
-            <!--
+    <section id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1
+            class="block title wow fadeInDown animated"
+            data-wow-delay=".3s"
+            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;"
+          >
+            Contact
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-xs-12">
+            <a href="mailto:nicholasreis@gmail.com"
+              ><i class="fa fa-envelope-square fa-5x sr-contact"></i
+            ></a>
+            <p>
+              <a href="mailto:nicholasreis@gmail.com">nicholasreis@gmail.com</a>
+            </p>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <i class="fa fa-phone-square fa-5x sr-contact"></i>
+            <p>510-859-7696</p>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <a target="_blank" href="https://www.linkedin.com/in/nicholas-reis/"
+              ><i class="fab fa-linkedin fa-5x sr-contact"></i
+            ></a>
+            <a
+              target="_blank"
+              class="text-center"
+              href="https://www.linkedin.com/in/nicholas-reis/"
+              >nicholas-reis</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
             ==================================================
             Footer Section Start
             ================================================== -->
-                
-        </body>
-    </html>
+  </body>
+</html>
